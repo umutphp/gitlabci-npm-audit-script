@@ -2,7 +2,7 @@
 
 print_vulnerabilities () {
     ./jq-linux64 .metadata.vulnerabilities < ./audit_result.json
-    cat ./ui/audit_result.json
+    cat ./audit_result.json
 }
 
 wget https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64
